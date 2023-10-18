@@ -20,7 +20,7 @@ def setup(request):
     else:
         raise ValueError("Invalid browser name provided.")
 
-    driver.get("https://dev-akmamnirjhor10.pantheonsite.io/wp-login.php?redirect_to=https%3A%2F%2Fdev-akmamnirjhor10.pantheonsite.io%2Fwp-admin%2Fadmin.php%3Fpage%3Dwp-dark-mode-settings&reauth=1 ")
+    driver.get(" https://maps.barikoi.com/ ")
     driver.maximize_window()
 
     request.cls.driver = driver
